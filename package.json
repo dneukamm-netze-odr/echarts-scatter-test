@@ -4,6 +4,11 @@
     "authors": "Dominik Neukamm <d.neukamm@netze-odr.de>",
     "version": "1.0.0",
     "main": "src/main.js",
+    "license": "MIT",
+    "repository": {
+        "type" : "git",
+        "url": "https://github.com/dneukamm-netze-odr/echarts-scatter-test.git"
+    },
     "scripts": {
         "dev": "vite",
         "build": "vite build"
