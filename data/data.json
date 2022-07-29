@@ -1,0 +1,86 @@
+[
+  {
+    "timestamp": 1655703745000,
+    "operation": "Operation1",
+    "seconds": 1,
+    "status": "E",
+    "description": "Error running Operation1"
+  },
+  {
+    "timestamp": 1655706798000,
+    "operation": "Operation2",
+    "seconds": 422,
+    "status": "S",
+    "description": "Additional information"
+  },
+  {
+    "timestamp": 1655739367000,
+    "operation": "Operation1",
+    "seconds": 65,
+    "status": "S",
+    "description": "Operation1 successful"
+  },
+  {
+    "timestamp": 1655749384000,
+    "operation": "Operation4",
+    "seconds": 96,
+    "status": "S",
+    "description": "Operation4 successful"
+  },
+  {
+    "timestamp": 1655773891000,
+    "operation": "Operation4",
+    "seconds": 89,
+    "status": "S",
+    "description": "Operation4 successful"
+  },
+  {
+    "timestamp": 1655783934000,
+    "operation": "Operation4",
+    "seconds": 1,
+    "status": "S",
+    "description": "Operation4 successful"
+  },
+  {
+    "timestamp": 1655795139000,
+    "operation": "Operation2",
+    "seconds": 112,
+    "status": "E",
+    "description": "Error description"
+  },
+  {
+    "timestamp": 1655803944000,
+    "operation": "Operation2",
+    "seconds": 0,
+    "status": null,
+    "description": "Not finished"
+  },
+  {
+    "timestamp": 1655813967000,
+    "operation": "Operation1",
+    "seconds": 32,
+    "status": "S",
+    "description": "Ended by another process"
+  },
+  {
+    "timestamp": 1655823987000,
+    "operation": "Operation4",
+    "seconds": 741,
+    "status": "S",
+    "description": "Operation4 successful"
+  },
+  {
+    "timestamp": 1655833998000,
+    "operation": "Operation4",
+    "seconds": 604,
+    "status": "S",
+    "description": "Operation4 successful"
+  },
+  {
+    "timestamp": 1655845001000,
+    "operation": "Operation1",
+    "seconds": 1019,
+    "status": "S",
+    "description": "Operation1 successful"
+  }
+]
