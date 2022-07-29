@@ -12,32 +12,16 @@ export default {
       tooltip: {},
       grid: {},
       legend: {},
-      dataset: [
-        {
-          dimensions: ["timestamp", "seconds"],
-          source: data,
-        },
-        ...labels.map((label, idx) => ({
-          id: `dataset${idx}`,
-          transform: {
-            type: "filter",
-            config: {
-              dimension: "operation",
-              eq: label,
-            },
-          },
-        })),
-      ],
-      series: labels.map((label, idx) => ({
+      series: labels.map((label) => ({
         type: "scatter",
         name: label,
         label,
-        dataGroupId: `dataset${idx}`,
-        /* dimensions: [{ name: "timestamp", type: "time" }, "seconds"],
+        data: data.filter((el) => el.operation === label),
+        dimensions: [{ name: "timestamp", type: "time" }, "seconds"],
         encode: {
           x: "timestamp",
           y: "seconds",
-        }, */
+        },
       })),
       xAxis: {
         type: "time",
